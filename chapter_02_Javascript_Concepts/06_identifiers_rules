@@ -1,0 +1,19 @@
+// JavaScript identifier rules
+// 1. Must start with a letter, underscore (_), or dollar sign ($)
+// 2. After the first character, digits are allowed too
+// 3. Cannot start with a digit
+// 4. Case-sensitive
+// 5. Cannot use reserved keywords as identifiers
+
+let userName = "Alice";
+let _temp = 42;
+let $price = 9.99;
+let p = 3.14159;
+let ?? = "hello";
+
+console.log(userName, _temp, $price, p, ??);
+
+// Invalid identifier examples:
+// let 1count = 1;
+// let my-name = "no";
+// let for = 10;
