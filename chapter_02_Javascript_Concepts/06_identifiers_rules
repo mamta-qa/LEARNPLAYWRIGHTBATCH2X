@@ -9,9 +9,9 @@ let userName = "Alice";
 let _temp = 42;
 let $price = 9.99;
 let p = 3.14159;
-let ?? = "hello";
+//let ?? = "hello";
 
-console.log(userName, _temp, $price, p, ??);
+c; //onsole.log(userName, _temp, $price, p, ??);
 
 // Invalid identifier examples:
 // let 1count = 1;
